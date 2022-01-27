@@ -417,7 +417,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         }
 
         if (mode === MODE_ENDLESS) {
-            if (score <= 5) return '嘉心糖屁用没有捏'.;
+            if (score <= 5) return '嘉心糖屁用没有捏';
             if (score <= 8) return '为了圣嘉然，要继续努力捏';
             if (score <= 10)  return '圣嘉然看到了你的努力捏';
             if (score <= 15) return '这位更是个重量级';
